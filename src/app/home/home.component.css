@@ -1,0 +1,28 @@
+.profile {
+    margin: 10px 10px 10px 10px ;
+    content: center;
+    background-color:white;
+    min-height: 500px;
+    text-align: center;
+}
+.content{
+    margin: 2px;
+    background-color:white;
+    min-height: 300px;
+    text-align: center;
+}
+.parameter{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    min-width: 200px;
+    min-height: 100px;
+    cursor: pointer;
+}
+.intro{
+    align-content: center;
+}
+.img-fluid{
+    max-height: 400px;
+    width: 100%
+}

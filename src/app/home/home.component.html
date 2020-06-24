@@ -1,3 +1,52 @@
-<p>
-  home works!
-</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-lg-4 profile">
+            <app-profile></app-profile>
+        </div>
+        <div class=" col-sm-6 col-lg content ">
+            <div class="row">
+                <div  class="col-sm-12 col-md-4">
+                    <div [routerLink]="['/experience']" class="parameter" style="background-color:orange;">
+                         <i class="fa fa-briefcase fa-3x" aria-hidden="true" >
+                            <h2>Experience</h2>
+                        </i></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="parameter" [routerLink]="['/education']" style="background-color: black;">
+                        <i class="fa fa-graduation-cap fa-3x" ria-hidden="true">
+                            <h2>Education</h2>
+                        </i>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="parameter" [routerLink]="['/skills']" style="background-color: red;">
+                        <i class="fa fa-cogs fa-3x" ria-hidden="true">
+                            <h2>Skills</h2>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="parameter" [routerLink]="['/projects']" style="background-color: black;">
+                        <i class="fa fa-folder fa-3x" ria-hidden="true">
+                            <h2>Projects </h2>
+                        </i></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="parameter" [routerLink]="['/aboutme']"style="background-color: blue;">
+                        <i class="fa fa-user-circle-o fa-3x" aria-hidden="true">
+                            <h2>AboutMe</h2>
+                        </i></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="parameter" [routerLink]="['/contactme']" style="background-color: green;">
+                        <i class="fa fa-phone fa-3x" aria-hidden="true">
+                            <h2>ContactMe</h2>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

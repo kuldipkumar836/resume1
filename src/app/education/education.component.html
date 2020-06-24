@@ -1,3 +1,42 @@
-<p>
-  education works!
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-lg-4 profile">
+      <app-profile></app-profile>
+    </div>
+    <div class=" col-sm-6 col-lg content ">
+      <div class="card">
+        <div class="card-title">
+          <i class="fa fa-check fa-2x"></i>
+          Experience
+          <i class="fa fa-home fa-2x" [routerLink]="['/home']" style="float:right;"></i>
+        </div>
+        <hr>
+        <div class="card-body">
+          <div class="list-group">
+            <li class="list-group-item">
+              <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+              <span class="title">
+              Bachlar of Technology
+              <p> A.p.j Abdul Kalam Technical University Luckonw</p>
+              </span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+              <span class="title">
+               Imtermediate(12th)
+              <p> Maharana Pratap Inter College Kanpur </p>
+              </span>
+            </li>
+            <li class="list-group-item">
+              <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+              <span class="title">
+               High School(10th)
+              <p> Maharana Pratap Inter College Kanpur </p>
+              </span>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
