@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 app.use(express.static('./dist/resume'));
-
+    
 app.get('/*', function(req,res) {
     
     res.sendFile(path.join(__dirname,'/dist/resume/index.html'));

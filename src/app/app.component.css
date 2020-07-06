@@ -1,3 +1,8 @@
-.main{
-    margin: 20px;
+.profile{
+          margin: 20px;
+    padding: 2px; 
+}
+.content{
+      margin: 20px;
+    padding: 2px;  
 }

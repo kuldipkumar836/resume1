@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { SkillComponent } from './skill/skill.component';
 import { EducationComponent } from './education/education.component';
-import { ProjectsComponent } from './projects/projects.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -20,7 +19,6 @@ import { FooterComponent } from './footer/footer.component';
     ExperienceComponent,
     SkillComponent,
     EducationComponent,
-    ProjectsComponent,
     AboutUsComponent,
     ContactUsComponent,
     ProfileComponent,
@@ -28,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
