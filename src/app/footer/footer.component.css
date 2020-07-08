@@ -1,0 +1,18 @@
+ul li a{
+   padding: 20px;
+    color:white;
+    float:left;
+    
+}
+ul li a:hover{
+    color:blue;
+}
+ li{
+    display: inline;
+}
+ ul{
+    overflow: auto;
+    width: 630px;
+    padding-left: 100px;    
+
+}
