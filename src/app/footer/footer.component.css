@@ -12,7 +12,7 @@ ul li a:hover{
 }
  ul{
     overflow: auto;
-    width: 630px;
-    padding-left: 100px;    
+    width: auto;
+    padding-left: 50px;    
 
 }
