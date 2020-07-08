@@ -8,7 +8,7 @@ const routes: Routes = [
   {path: '', component: HomeComponent },
   {path: 'home', component: HomeComponent },
   {path: 'skills', loadChildren: './skills/skills.module#SkillsModule' },
-  {path: 'experience', loadChildren: './skills/skills.module#SkillsModule'},
+  {path: 'experience', loadChildren: './professional/professional.module#ProfessionalModule'},
   {path: 'education', loadChildren: './academic/academic.module#AcademicModule' },
   {path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
   {path: 'personal-info', loadChildren: './personal-info/personal-info.module#PersonalInfoModule' },
