@@ -1,5 +1,5 @@
 ul li a{
-   padding: 20px;
+   padding: 10px;
     color:white;
     float:left;
     
@@ -13,6 +13,6 @@ ul li a:hover{
  ul{
     overflow: auto;
     width: auto;
-    padding-left: 50px;    
+    padding-left: 40px;    
 
 }
